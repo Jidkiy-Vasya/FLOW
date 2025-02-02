@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.register{
+    color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.registacionContent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inp1{
+    margin-top: 15px;
+    
+
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+    width: 400px;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 50px;
+    background: transparent;
+    
+    
+    backdrop-filter: blur(5px); /* эффект размытия */
+
+    -webkit-backdrop-filter: blur(50px); /* для поддержки Safari */
+}
+
+body {
+	background-image: url('img/back1.jpg');/*url("https://i.pinimg.com/1200x/be/bb/b0/bebbb0d71318da606928e406b1366029.jpg")*/
+    background-repeat: no-repeat;
+    background-size: 1000px 900px;
+    background-size: cover;
+    
+    
+}
+
+
+
+ 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+input{
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+input::placeholder {
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.aria{
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+.aria::placeholder {
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.registr_user{
+    flex-direction: column;
+    border: 3px solid rgb(85, 184, 255);
+    display: flex;
+    width: 500px;
+    height: 470px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(67, 186, 255);
+    border-radius: 30px; 
+    background-image: url(''); /* задний план элемента */
+
+    backdrop-filter: blur(5px); /* эффект размытия */
+
+    -webkit-backdrop-filter: blur(50px); /* для поддержки Safari */
+    
+}
+.secondbody{
+    display: flex;
+    height: 870px;
+    justify-content: center;
+}
+.buttonddd{
+    margin-top: 50px;
+    width: 370px;
+    border: 2px solid rgb(254, 254, 254);
+    border-radius: 30px; 
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+    font-weight: 700;
+    transition: 1s;
+    height: 50px;
+    background-color: #ffffff;
+    background: transparent;
+    color:aliceblue;
+}
+
+
+
+.buttonddd:hover{
+    width: 400px;
+    background-color: rgb(253, 197, 255);
+    
+}
+
+
+.flash{
+    font-weight: 500;
+}
+
+.main_text_on{
+    display: flex;
+    justify-content: center;
+    padding-left: 65px;
+    color: rgb(255, 255, 255);
+}
+
+.post_for_user{
+    
+    width: 500px;
+    
+}
+
+.body_for_post{
+    display: flex;
+    justify-content: center;
+    height: 680px;
+}
+
+.creating_posts{
+    width: 400px;
+    align-items: center;
+}
+
+.inp2{
+    display: inline;
+    width: 300px;
+    height: 30px;
+}
+
+
+
+
+
+.btnpost{
+    width: 370px;
+    padding-right: 5px;
+}
+
+.containerpost{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 1000px;
+    
+    
+    border: 5px solid   ;
+    border-radius: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5px;
+    opacity: 0.9;
+    color: rgb(12, 154, 255);
+    background-color: #ffffff;   
+
+    
+
+}
+
+.posttext{
+    padding-top: 15px;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 10px;    
+    padding-bottom: 5px;
+    color:#000000
+}
+
+.mainhome{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
+.telegramicon{
+    margin-top: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
+}
+
+.foterrr{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color:aliceblue;
+}
+
+.mainfoter{
+    height:100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sematrypng{
+    display: inline;
+    margin-bottom: 35px;
+    margin-left: 400px;
+    padding-right: 5px;
+}
+
+.tgicon{
+    margin-right: 400px;
+}
+
+hr{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background: transparent;
+    
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    
+}
+
+
+
+.homeandpost{
+    align-items: center;
+    list-style-type:none;
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    
+}
+
+.llllll{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.llllll:hover{
+    color:rgb(250, 198, 246)
+}
+
+
+.semaaaa{
+    padding-bottom: 20px;
+    width: 50px;
+}
+
+.headerbtn{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(250, 129, 240)
+}
+
+.nameofsite{
+    font-size: 40px;
+    padding-right: 250px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(255, 255, 255);
+}
+
+body {
+    margin: 0; /* Обнуляем отступы */
+  }
+  
+.container {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+  
+.nameofpost{
+    color:rgb(0, 0, 0);
+}

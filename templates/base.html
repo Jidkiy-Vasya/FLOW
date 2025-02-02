@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow</title>
+    
+    <link href="static/main.css" rel = "stylesheet">
+</head>
+<body>
+    <header class = "mainheader">
+      
+      <ul class="homeandpost">
+        
+        <img src = "static/img/sematry.jpg" class = "telegramicon semaaaa">
+        <li><a href="/home" class="hometask llllll">Home</a></li>
+        <li><a href="{{url_for('create')}}" class="createposttask llllll">Create Post</a></li>
+      </ul>
+
+      <span class = "nameofsite">Flow</span>
+
+      <span class = "hi"> {{name}}</span>
+      
+    </header>
+    
+
+
+
+
+
+    {% block body %}{% endblock %}
+    
+
+    <footer>
+      <hr>
+      <div class = "foterrr">
+        
+        <div class = "mainfoter">
+          <img class = "telegramicon sematrypng" src = "static/img/sematry.jpg">
+          <span>© 2024 Company, Inc</span>
+        </div>
+        <a target="_blank" href = "https://web.telegram.org/k/#@bestsellertyt"><img class = "telegramicon tgicon"src = "static/img/telegram.png"></a>
+      </div>
+    </footer>
+</body>
+</html>
+
+
+<!--
+<header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="/" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="{{url_for('create')}}" class="nav-link px-2 text-white">Create Post</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <a href = "{{url_for('registration')}}"><button type="button" class="btn btn-outline-light me-2">Sing-up</button></a>
+          <a href="{{url_for('login')}}"><button type="button" class="btn btn-warning">Login</button></a>
+        </div>
+      </div>
+    </div>
+  </header>-->

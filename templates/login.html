@@ -1,0 +1,24 @@
+{% extends 'basemain.html' %}
+
+{%  block title %}
+Войти в систему
+{% endblock %}
+
+{% block body %}
+
+<div class = "secondbody">
+    <div class = "registr_user login_user">
+        <h1 class = "register">Login</h1>
+        {% for msg in get_flashed_messages() %}
+        <div class = "flash"><em>{{msg}}</em></div>
+        {% endfor %}
+        <form method="post" class = "registacionContent">
+            <input class = "username_xxx inp1 " type = "text" name = "loginin" placeholder="Email">
+            <input class = "username_xxx inp1 " type = "password" name = "passwordin" placeholder="Password">
+            <button type="submit" class = "buttonddd">Login</button>
+            <a  target="_blank" href = "https://web.telegram.org/k/#@bestsellertyt" ><img class = "telegramicon" src="static/img/telegram.png"></a>
+        </form>
+        
+    </div>
+</div>
+{% endblock %}

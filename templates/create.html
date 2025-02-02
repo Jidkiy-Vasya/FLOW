@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Сделать пост
+{% endblock %}
+
+{% block body%}
+<h1 class = "main_text_on">Создать свой пост</h1>
+
+<div class = "body_for_post">
+    <div class = "registr_user post_for_user">
+        <h1 class = "register">Новый пост</h1>
+        <form method="post" class = "registacionContent creating_posts">
+            {% for msg in get_flashed_messages() %}
+            <div class = "flash"><em>{{msg}}</em></div>
+            {% endfor %}
+            <input class = "inp1 " type = "text" name = "title" placeholder="Название статьи">
+            <textarea class = "inp1 aria " type = "text" name = "text" placeholder="Текст"></textarea>
+
+            <button type="submit" class = "buttonddd btnpost">Опубликовать</button>
+        </form>
+        
+    </div>
+</div>
+{% endblock %}
